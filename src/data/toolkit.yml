@@ -1,8 +1,12 @@
 colors:
   primary:
-    Dark: "rgb(30, 30, 30)"
-    Light: "rgb(242, 242, 242)"
+    Text: "#4f4f6f"
+    Light Background: "#f9fafc"
+    Primary: "#6e45e2"
+    White: "white"
   secondary:
-    Red: "rgb(201, 55, 6)"
-    Yellow: "rgb(252, 207, 80)"
-    Blue: "rgb(39, 102, 143)"
+    Secondary: "#68cef0"
+    Primary Tone: "#cad0e0"
+    Neutral: "#a8abb4"
+    # Highlight 1: "#fce33b"
+    # Highlight 2: "#ff8eb3"

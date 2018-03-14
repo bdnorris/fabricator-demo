@@ -2,6 +2,10 @@
 
 Demo and test of using Fabricator style guide system for potential client projects.
 
+## Demo
+
+using https://getcraftwork.com/misocial/ PSD Freebie to demo components.
+
 # Fabricator
 
 > _fabricate_ - to make by assembling parts or sections.
