@@ -12,6 +12,8 @@ $settings: (
 	menu-width: 14rem
 );
 
+@import 'mixins';
+
 @import 'partials/variables';
 @import 'partials/code';
 @import 'partials/color-chips';
@@ -21,3 +23,5 @@ $settings: (
 @import 'partials/menu';
 
 @import 'base/index';
+
+@import 'components/index';

@@ -1,0 +1,19 @@
+button, a.button {
+  @include button-reset;
+  background-color: $primary;
+  color: white;
+  height: 60px;
+  border-radius: 30px;
+  padding: 1em;
+  min-width: 200px;
+  font-size: 0.75em; // 12pt
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  transition: background-color $hover-timing ease;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($primary, 10%);
+  }
+}
