@@ -1,19 +1,43 @@
 button, a.button {
   @include button-reset;
   background-color: $primary;
+  text-align: center;
   color: white;
   height: 60px;
   border-radius: 30px;
   padding: 1em;
-  min-width: 200px;
+  min-width: 180px;
+  max-width: 240px;
   font-size: 0.75em; // 12pt
-  line-height: 1;
+  line-height: 34px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   font-weight: 700;
   transition: background-color $hover-timing ease;
+  margin: 0 0.5em 0.5em 0;
   cursor: pointer;
   &:hover {
     background-color: darken($primary, 10%);
+  }
+}
+
+a.button {
+  display: inline-block;
+  // width: auto;
+}
+
+button.reversed, a.button.reversed {
+  // height: 50px;
+  // line-height: 25px;
+  background-color: white;
+  color: $primary-tone;
+  // font-weight: 500;
+  border: 1px solid $light-gray;
+  box-shadow: 0 0 1em 0.5em rgba($primary-tone, 0.5);
+  transition: background-color $hover-timing ease, border-color $hover-timing ease, color $hover-timing ease;
+  &:hover {
+    color: white;
+    border-color: $primary;
+    background-color: $primary;
   }
 }

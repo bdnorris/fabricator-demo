@@ -3,11 +3,13 @@
 h1, h2, h3, h4, h5, h6 {
   color: $text;
   font-weight: 500; // medium
+  margin: 0 0 1em 0;
 }
 
 h1 {
   font-size: 3.75em; // 60pt / 72pt
   line-height: 1.2; 
+  margin-bottom: 0.5em;
 }
 
 h2 {
@@ -34,16 +36,13 @@ p {
   color: $neutral;
   font-size: 1em; // 16pt / 28pt
   line-height: 1.75; 
+  margin: 0 0 1.75em 0;
 }
 
 
 // UTILITY CLASSES
 
-h2.label {
-  font-size: 0.875em; // 14pt / 32pt
-  line-height: 2.28;
-  color: $neutral;
-}
+
 
 
 
