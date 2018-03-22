@@ -1,0 +1,19 @@
+.text-lockup {
+  padding: 1em 0;
+}
+
+.text-lockup--reversed {
+  background-color: lighten($primary, 10%);
+  h2.label {
+    color: white;
+    &::before {
+      background-color: white;
+    }
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}

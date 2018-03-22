@@ -1,5 +1,6 @@
 button, a.button {
   @include button-reset;
+  display: inline-block;
   background-color: $primary;
   text-align: center;
   color: white;
