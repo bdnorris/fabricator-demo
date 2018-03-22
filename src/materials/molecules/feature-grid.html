@@ -1,5 +1,5 @@
 <ul class="feature-grid">
-  {{#each features.feature}}
-    <div>{{> feature headline=this}}</div>
+  {{#each features.feature.feature-item}}
+    <li>{{> feature headline=this.headline}}</li>
   {{/each}}
 </ul>

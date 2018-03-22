@@ -1,4 +1,14 @@
 feature:
-  - Analytics
-  - Projects
-  - Sections & Columns
+  feature-item:
+  - headline: Analytics
+    paragraph: Easily create tasks for yourself or assign one to a teammate.
+  - headline: Projects
+    paragraph: Easily create tasks for yourself or assign one to a teammate.
+  - headline: Sections & Columns
+    paragraph: Easily create tasks for yourself or assign one to a teammate.
+  - headline: Project Templates
+    paragraph: Easily create tasks for yourself or assign one to a teammate.
+  - headline: Subtasks
+    paragraph: Easily create tasks for yourself or assign one to a teammate.
+  - headline: Attachments
+    paragraph: Easily create tasks for yourself or assign one to a teammate.
