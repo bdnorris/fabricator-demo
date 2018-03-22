@@ -29,7 +29,10 @@ $settings: (
 @import 'molecules/index';
 
 
-.f-item-heading, .f-menu {
+// OVERRIDES FOR FBRCTR INTERFACE
+.f-item-heading,
+.f-menu,
+.f-container > h1 {
 	font-family: "Source Code Pro", sans;
 	color: #445;
 }
