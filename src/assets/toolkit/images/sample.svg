@@ -1,0 +1,10 @@
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="area-graph" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M20,0 L20,16 L0.32,16 C0.002,16 -0.096,15.791 0.104,15.535 L4.573,9.787 C4.772,9.531 5.126,9.504 5.362,9.725 L6.781,11.059 C7.016,11.28 7.353,11.237 7.528,10.963 L10.575,6.223 C10.75,5.95 11.084,5.911 11.316,6.133 L13.487,8.229 C13.719,8.454 14.046,8.409 14.211,8.129 L19.344,0.344 C19.51,0.062 19.75,0 20,0 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

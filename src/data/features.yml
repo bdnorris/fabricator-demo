@@ -2,13 +2,19 @@ feature:
   feature-item:
   - headline: Analytics
     paragraph: Easily create tasks for yourself or assign one to a teammate.
+    icon: feature__sample
   - headline: Projects
     paragraph: Testing Paragraph
+    icon: feature__bug
   - headline: Sections & Columns
     paragraph: Easily create tasks for yourself or assign one to a teammate.
+    icon: feature__sample
   - headline: Project Templates
     paragraph: Easily create tasks for yourself or assign one to a teammate.
+    icon: feature__sample
   - headline: Subtasks
     paragraph: Easily create tasks for yourself or assign one to a teammate.
+    icon: feature__sample
   - headline: Attachments
     paragraph: Easily create tasks for yourself or assign one to a teammate.
+    icon: feature__sample

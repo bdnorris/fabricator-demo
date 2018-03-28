@@ -1,10 +1,41 @@
 .feature {
+  position: relative;
+  padding-left: 5.5em;
+  margin-right: 1em;
+
   h2 {
     font-size: 1.5em; // /24pt
     line-height: 1; // 72pt
+    margin-bottom: 0.75em;
   }
   p {
     font-size: 1em;
     line-height: 1.75;
+  }
+  &::before {
+    display: block;
+    position: absolute;
+    width: 4em;
+    height: 4em;
+    content: '';
+    background-color: $primary;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 3px;
+    border-radius: 2em;
+  }
+  &.feature__sample {
+    &::before {
+      background-size: 20px 20px;
+      background-position: 48% 45%;
+      background-image: url('../../toolkit/images/sample.svg');
+    }
+  }
+  &.feature__bug {
+    &::before {
+      background-size: 26px 26px;
+      background-position: center 47%;
+      background-image: url('../../toolkit/images/bug.svg');
+    }
   }
 }

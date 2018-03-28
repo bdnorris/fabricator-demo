@@ -1,4 +1,4 @@
-<div class="feature">
-  <h2>{{this.headline}}</h2>
-  <p>{{this.paragraph}}</p>
+<div class="feature {{#if icon}} {{icon}} {{else}} feature__sample {{/if}}">
+  <h2>{{#if headline}} {{headline}} {{else}} Analytics {{/if}}</h2>
+  <p>{{#if paragraph}} {{paragraph}} {{else}} Easily create tasks for yourself or assign one to a teammate. {{/if}}</p>
 </div>
